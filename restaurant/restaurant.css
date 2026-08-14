@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff8e7;
+  color: #3b1f0f;
+}
+
+header {
+  background-color: #b52b27;
+  padding: 25px 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  color: #fff8e7;
+  margin-bottom: 25px;
+}
+
+header .card {
+  border: none;
+  border-radius: 15px 15px 0 0;
+}
+
+header .card-header {
+  background-color: #f4c542;
+}
+
+header .nav {
+  justify-content: center;
+}
+
+header a {
+  color: #3b1f0f;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #b52b27;
+}
+
+main {
+  min-height: 100vh;
+  padding: 100px 20px;
+  background-color: #fff8e7;
+}
+
+main h1 {
+  text-align: center;
+}
+
+main .display-2 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #b52b27;
+  letter-spacing: 4px;
+}
+
+main .display-3 {
+  max-width: 900px;
+  margin: 20px auto 50px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+main .display-3 mark {
+  background-color: #f4c542;
+  border-radius: 15px;
+  padding: 5px 15px;
+  color: #3b1f0f;
+}
+
+main img {
+  height: 20rem;
+  width: 30rem;
+  max-width: 90%;
+  object-fit: cover;
+  border: 8px solid white;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid div {
+  background-color: black;
+  border: 5px solid white;
+  width: 300px;
+}
+
+.orders {
+  min-height: 100vh;
+  padding: 70px 30px;
+  background-color: #b52b27;
+}
+
+.orders h1 {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  color: #fff8e7;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+
+.foods {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.foods .card {
+  width: 18rem;
+  min-height: 450px;
+  background-color: #3b1f0f;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  padding: 10px;
+}
+
+.foods img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.foods .card-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #f4c542;
+}
+
+.foods .card-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.foods a {
+  display: block;
+  width: 10rem;
+  margin: 15px auto;
+  background-color: #f4c542;
+  color: #3b1f0f;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.foods a:hover {
+  background-color: #fff8e7;
+  color: #b52b27;
+}
+
+.contact {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #fff8e7;
+}
+
+.contact .card {
+  width: 500px;
+  max-width: 100%;
+  padding: 35px;
+  background-color: #3b1f0f;
+  border: none;
+  border-radius: 20px;
+}
+
+.contact .card1,
+.contact .card2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  background-color: #fff8e7;
+  border-radius: 15px;
+}
+
+.contact img {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+}
+
+.contact p {
+  margin: 0;
+  color: #3b1f0f;
+  font-weight: bold;
+}
+.contact .card {
+  gap: 2rem;
+}
